@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <rect width="600" height="800" fill="#ffffff"/>
+  <rect x="18" y="18" width="564" height="764" rx="26" ry="26" fill="none" stroke="#000" stroke-width="3"/>
+  <text x="300.0" y="80" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" text-anchor="middle" fill="#000">Цветок</text>
+  <g fill="#ffffff" stroke="#000" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- stem -->
+    <path d="M 291,360 C 286,470 300,560 294,672 L 306,672 C 312,560 300,470 309,360 Z"/>
+    <!-- left leaf -->
+    <path d="M 298,500 C 232,470 188,506 168,556 C 232,556 282,534 300,498 Z"/>
+    <path d="M 200,536 Q 250,520 290,506" fill="none"/>
+    <!-- right leaf -->
+    <path d="M 300,560 C 366,532 412,566 432,616 C 366,616 318,596 300,560 Z"/>
+    <path d="M 400,596 Q 350,580 312,566" fill="none"/>
+    <!-- petals -->
+    <g transform="rotate(0 300 300)"><ellipse cx="300" cy="180" rx="44" ry="92"/></g>
+    <g transform="rotate(45 300 300)"><ellipse cx="300" cy="180" rx="44" ry="92"/></g>
+    <g transform="rotate(90 300 300)"><ellipse cx="300" cy="180" rx="44" ry="92"/></g>
+    <g transform="rotate(135 300 300)"><ellipse cx="300" cy="180" rx="44" ry="92"/></g>
+    <g transform="rotate(180 300 300)"><ellipse cx="300" cy="180" rx="44" ry="92"/></g>
+    <g transform="rotate(225 300 300)"><ellipse cx="300" cy="180" rx="44" ry="92"/></g>
+    <g transform="rotate(270 300 300)"><ellipse cx="300" cy="180" rx="44" ry="92"/></g>
+    <g transform="rotate(315 300 300)"><ellipse cx="300" cy="180" rx="44" ry="92"/></g>
+    <!-- center -->
+    <circle cx="300" cy="300" r="74"/>
+    <circle cx="300" cy="300" r="56" fill="none"/>
+    <circle cx="278" cy="290" r="6" fill="none"/>
+    <circle cx="320" cy="284" r="6" fill="none"/>
+    <circle cx="300" cy="318" r="6" fill="none"/>
+    <circle cx="286" cy="322" r="6" fill="none"/>
+    <circle cx="324" cy="312" r="6" fill="none"/>
+    <circle cx="308" cy="298" r="6" fill="none"/>
+    <circle cx="292" cy="278" r="6" fill="none"/>
+    <!-- grass tufts -->
+    <path d="M 250,690 C 246,665 235,650 222,640 M 270,690 C 268,662 272,648 280,636 M 330,690 C 332,662 328,648 320,636 M 350,690 C 354,665 365,650 378,640" fill="none"/>
+
+  </g>
+</svg>

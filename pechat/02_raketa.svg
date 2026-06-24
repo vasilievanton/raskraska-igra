@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 800" width="600" height="800">
+  <rect width="600" height="800" fill="#ffffff"/>
+  <rect x="18" y="18" width="564" height="764" rx="26" ry="26" fill="none" stroke="#000" stroke-width="3"/>
+  <text x="300.0" y="80" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" text-anchor="middle" fill="#000">Ракета</text>
+  <g fill="#ffffff" stroke="#000" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round">
+
+    <!-- left fin -->
+    <path d="M 232,440 L 168,575 L 232,548 Z"/>
+    <!-- right fin -->
+    <path d="M 368,440 L 432,575 L 368,548 Z"/>
+    <!-- nose cone -->
+    <path d="M 300,150 C 252,212 232,262 230,312 L 370,312 C 368,262 348,212 300,150 Z"/>
+    <!-- body -->
+    <path d="M 230,308 L 230,520 C 230,556 370,556 370,520 L 370,308 Z"/>
+    <!-- decorative band -->
+    <path d="M 232,400 L 368,400 M 232,432 L 368,432" fill="none"/>
+    <!-- window -->
+    <circle cx="300" cy="262" r="46"/>
+    <circle cx="300" cy="262" r="31" fill="none"/>
+    <!-- nozzle -->
+    <path d="M 258,548 L 246,598 L 354,598 L 342,548 Z"/>
+    <!-- flames -->
+    <path d="M 256,598 Q 244,672 300,718 Q 356,672 344,598 Z"/>
+    <path d="M 280,598 Q 274,656 300,690 Q 326,656 320,598 Z" fill="none"/>
+    <!-- stars -->
+    <polygon points="110.0,148.0 115.4,162.5 130.9,163.2 118.8,172.9 122.9,187.8 110.0,179.2 97.1,187.8 101.2,172.9 89.1,163.2 104.6,162.5" fill="#ffffff" stroke="#000" stroke-width="2.5"/>
+    <polygon points="490.0,132.0 494.4,143.9 507.1,144.4 497.2,152.3 500.6,164.6 490.0,157.6 479.4,164.6 482.8,152.3 472.9,144.4 485.6,143.9" fill="#ffffff" stroke="#000" stroke-width="2.5"/>
+    <polygon points="135.0,454.0 138.9,464.6 150.2,465.1 141.4,472.1 144.4,482.9 135.0,476.7 125.6,482.9 128.6,472.1 119.8,465.1 131.1,464.6" fill="#ffffff" stroke="#000" stroke-width="2.5"/>
+    <polygon points="470.0,408.0 475.4,422.5 490.9,423.2 478.8,432.9 482.9,447.8 470.0,439.2 457.1,447.8 461.2,432.9 449.1,423.2 464.6,422.5" fill="#ffffff" stroke="#000" stroke-width="2.5"/>
+    <polygon points="95.0,622.0 99.4,633.9 112.1,634.4 102.2,642.3 105.6,654.6 95.0,647.6 84.4,654.6 87.8,642.3 77.9,634.4 90.6,633.9" fill="#ffffff" stroke="#000" stroke-width="2.5"/>
+    <polygon points="505.0,584.0 508.9,594.6 520.2,595.1 511.4,602.1 514.4,612.9 505.0,606.7 495.6,612.9 498.6,602.1 489.8,595.1 501.1,594.6" fill="#ffffff" stroke="#000" stroke-width="2.5"/>
+
+  </g>
+</svg>
